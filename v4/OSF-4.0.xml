@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="Open Screenplay Format document" version="40">
+  <info uuid="9BCC72D3-5736-46A9-9BE6-44CAACDE65C1" draft_uuid="D30A333A-C5DF-4FE6-8AB0-8B7885287135" pagecount="4"/>
+  <settings page_width="2159" page_height="2794" margin_top="317" margin_bottom="220" margin_left="317" margin_right="317" normal_linesperinch="6.0" element_spacing="1.00" break_on_sentences="true" dialogue_continues="true" dialogue_pagebreaks="true" cont_text="(cont'd)" more_text="(MORE)" scenes_continue="true" continued_text="CONTINUED" number_continued="true" scene_time_separator=" - " page_header="#." page_footer="" header_alignment="3" footer_alignment="3" header_first_page="false" footer_first_page="true" pages_locked="true" pagenumber_start="1" pagenumber_mode="1AB" revision="2" show_revisions="true" show_all_revisions="true" selected_revisions="" narrator="" narrator_default="false"/>
+  <styles>
+    <style name="Normal Text" builtin="1" builtin_index="0" font="Courier Screenplay" size="12"/>
+    <style name="Scene Heading" builtin="1" builtin_index="1" basestyle="Normal Text" style_enter="Action" style_tab_after="Action" font="Courier Screenplay" size="12" spacebefore="2.0" keepwithnext="1" numbering="true" number_locked="true" use_base_numbering="false" autoomit="false" number_skip_io="false" number_mode="1AB" omitted_text="OMITTED" number_start="1" number_format="#" number_reset_after="0" number_position="3" allcaps="1"/>
+    <style name="Action" builtin="1" builtin_index="2" basestyle="Normal Text" style_tab_before="Character" style_tab_after="Character" font="Courier Screenplay" size="12" spacebefore="1.0"/>
+    <style name="Character" builtin="1" builtin_index="3" basestyle="Normal Text" style_enter="Dialogue" style_tab_before="Action" style_tab_after="Action" font="Courier Screenplay" size="12" spacebefore="1.0" keepwithnext="1" leftindent="635" allcaps="1"/>
+    <style name="Parenthetical" builtin="1" builtin_index="4" basestyle="Normal Text" style_enter="Dialogue" style_tab_before="Dialogue" style_tab_after="Dialogue" font="Courier Screenplay" size="12" keepwithnext="1" leftindent="508" rightindent="508"/>
+    <style name="Dialogue" builtin="1" builtin_index="5" basestyle="Normal Text" style_enter="Action" style_tab_before="Parenthetical" style_tab_after="Parenthetical" font="Courier Screenplay" size="12" leftindent="330" rightindent="254"/>
+    <style name="Transition" builtin="1" builtin_index="6" basestyle="Normal Text" style_enter="Scene Heading" style_tab_after="Action" font="Courier Screenplay" size="12" spacebefore="1.0" align="right" leftindent="1016" rightindent="127" allcaps="1"/>
+    <style name="Shot" builtin="1" builtin_index="7" basestyle="Normal Text" style_enter="Action" style_tab_after="Action" font="Courier Screenplay" size="12" spacebefore="1.0" keepwithnext="1" allcaps="1"/>
+    <style name="Title" basestyle="Action" style_enter="Action" style_tab_after="Action" font="Courier Screenplay" size="12" bold="1" italic="0" underline="1" color="#000000" spacebefore="0.0" column="0" linespacing="1.0" keepwithnext="1" align="center" leftindent="0" rightindent="0"/>
+    <style name="Heading" basestyle="Normal Text" style_enter="Action" style_tab_after="Action" font="Courier Screenplay" size="12" bold="0" italic="0" underline="1" color="#7F7F7F" spacebefore="2.0" column="0" linespacing="1.0" keepwithnext="1" align="left" leftindent="0" rightindent="0"/>
+    <style name="Left column" basestyle="Action" font="Courier Screenplay" size="12" spacebefore="1.0" column="1" linespacing="1.0" keepwithnext="0" align="left" leftindent="0" rightindent="571"/>
+    <style name="Right column" basestyle="Action" font="Courier Screenplay" size="12" spacebefore="1.0" column="2" linespacing="2.0" keepwithnext="0" align="left" leftindent="1016" rightindent="0"/>
+    <header_style basestyle="Normal Text"/>
+    <footer_style basestyle="Normal Text"/>
+  </styles>
+  <paragraphs>
+    <para page_number="1">
+      <style basestyle="Title"/>
+      <text>Open Screenplay Format v</text>
+      <text revision="2">4</text>
+      <text>.0 (</text>
+      <text revision="2">2021-01-22</text>
+      <text>)</text>
+      <marks>
+        <mark at="25" revision="2"/>
+        <mark at="36" revision="2"/>
+        <mark at="38" revision="2"/>
+      </marks>
+    </para>
+    <para page_number="1">
+      <style basestyle="Heading"/>
+      <text>Built-in elements:</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Scene Heading"/>
+      <text>Scene Heading</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text>Action</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Character"/>
+      <text>Character</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Parenthetical"/>
+      <text>parenthetical</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Dialogue"/>
+      <text>Dialogue</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Transition"/>
+      <text>Transition:</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Shot"/>
+      <text>Shot</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Heading"/>
+      <text>Character-level formatting:</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text bold="1">Bold text </text>
+      <text italic="1">Italic text </text>
+      <text underline="1">Underlined text</text>
+      <text> </text>
+      <text strikethrough="1">Strikethrough text</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text bold="1" italic="1">Bold-italic text </text>
+      <text bold="1" italic="1" underline="1">Bold-italic-underlined text</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text font="Times New Roman" size="16">Times New Roman 16 </text>
+      <text font="Times New Roman" size="10">Times New Roman 10 </text>
+      <text size="14">Courier Screenplay 14</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text bgcolor="#00FF00">Green-highlighted</text>
+      <text> text</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text bgcolor="#FFFF00">Yellow-highlighted</text>
+      <text> text</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Heading"/>
+      <text>Paragraph-level formatting:</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text>Left aligned text (default)</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action" align="center"/>
+      <text>Center-aligned text</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action" align="right"/>
+      <text>Right-aligned text</text>
+    </para>
+    <para page_number="1" note="Note content">
+      <style basestyle="Action"/>
+      <text>A paragraph with a note.</text>
+    </para>
+    <para page_number="1" synopsis="Synopsis content" synopsis_color="#40A0FF">
+      <style basestyle="Action"/>
+      <text>A paragraph with synopsis content.</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text>This is a paragraph with a </text>
+      <text link="http://www.google.com">URL link</text>
+      <text>.</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action"/>
+      <text>This is a line with a </text>
+      <text link="Bookmark">link</text>
+      <text> to the...</text>
+    </para>
+    <para page_number="1" bookmark="Bookmark">
+      <style basestyle="Action"/>
+      <text>...following line's bookmark named "Bookmark".</text>
+    </para>
+    <para page_number="1">
+      <style basestyle="Action" rightindent="584"/>
+      <text>This is a single line with an adjusted line length.</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>This is a line with a
+soft return.</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Character" dualdialogue="1"/>
+      <text>Character</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Dialogue"/>
+      <text>Dual dialogue</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Character"/>
+      <text>Character 2</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Dialogue"/>
+      <text>Dual dialogue</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Left column"/>
+      <text>Text in columns is different from dual dialogue, in that it's not tied to Character/Dialogue, and margins can be set arbitrarily.</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Right column"/>
+      <text>Here is some double-spaced text in the right-hand column.</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Heading"/>
+      <text>Revisions:</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text revision="1">An element completely marked as a Blue revision.</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>An element partially marked as a </text>
+      <text revision="2">Pink revision</text>
+      <text>.</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>An element with a deletion mark right before the last word.</text>
+      <marks>
+        <mark at="54" revision="2"/>
+      </marks>
+    </para>
+    <para page_number="2">
+      <style basestyle="Heading"/>
+      <text>Page and scene number locking:</text>
+    </para>
+    <para number="1" page_number="2">
+      <style basestyle="Scene Heading"/>
+      <text>Int. first location - day</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>Scene numbers and page numbers in this document are locked. When not locked, the scene_number or page_number attribute is ignored. But when scene numbers and/or page numbers are locked, the appropriate attribute is used to force the number.</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>Note that the first "SCENE HEADING" example in this document has its scene_number set to an empty number ("").</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>This scene will break onto the next page (by typing additional lines after locking):</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>1</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>2</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>3</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>4</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>5</text>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text revision="2">6</text>
+      <marks>
+        <mark at="1" revision="2"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="2">7</text>
+      <marks>
+        <mark at="1" revision="2"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="2">8</text>
+      <marks>
+        <mark at="1" revision="2"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="2">9</text>
+      <marks>
+        <mark at="1" revision="2"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="2">10</text>
+      <marks>
+        <mark at="2" revision="2"/>
+      </marks>
+    </para>
+    <para page_number="2">
+      <style basestyle="Action"/>
+      <text>...and if pages 1, 2, and 3 were locked, this would become an unlocked page 2A.</text>
+    </para>
+    <para number="2" page_number="3">
+      <style basestyle="Scene Heading" pagebreakbefore="1"/>
+      <text>Int. Second location - night</text>
+    </para>
+    <para page_number="3">
+      <style basestyle="Action"/>
+      <text>This scene heading has the page break attribute set, causing it to begin on a new page.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text></text>
+    </para>
+  </paragraphs>
+  <titlepage>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para bookmark="Title">
+      <style basestyle="Normal Text" align="center"/>
+      <text underline="1">Open Screenplay Format</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center"/>
+      <text>Written by</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center"/>
+      <text></text>
+    </para>
+    <para bookmark="Author">
+      <style basestyle="Normal Text" align="center"/>
+      <text>Author's Name</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para bookmark="Copyright">
+      <style basestyle="Normal Text"/>
+      <text>Copyright (c) 2021</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para bookmark="Draft">
+      <style basestyle="Normal Text"/>
+      <text>Version 4.0
+January 22, </text>
+      <text revision="2">2021</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text"/>
+      <text></text>
+    </para>
+    <para bookmark="Contact">
+      <style basestyle="Normal Text"/>
+      <text>https://github.com/OpenScreenplayFormat/osf-sdk</text>
+    </para>
+  </titlepage>
+  <spelling language="en_US">
+    <user_dictionary>
+      <entry word="Strikethrough"/>
+    </user_dictionary>
+    <ignored/>
+  </spelling>
+  <lists>
+    <characters>
+      <character name="Character"/>
+      <character name="Character 2"/>
+    </characters>
+    <locations>
+      <location name="Scene Heading"/>
+      <location name="first location"/>
+      <location name="Second location"/>
+    </locations>
+    <scene_intros>
+      <scene_intro name="INT."/>
+      <scene_intro name="EXT."/>
+      <scene_intro name="INT./EXT."/>
+    </scene_intros>
+    <scene_times>
+      <scene_time name="DAY"/>
+      <scene_time name="NIGHT"/>
+      <scene_time name="MORNING"/>
+      <scene_time name="AFTERNOON"/>
+      <scene_time name="EVENING"/>
+      <scene_time name="LATER"/>
+      <scene_time name="MOMENTS LATER"/>
+      <scene_time name="CONTINUOUS"/>
+      <scene_time name="THE NEXT DAY"/>
+    </scene_times>
+    <extensions>
+      <extension name="(V.O.)"/>
+      <extension name="(O.S.)"/>
+      <extension name="(O.C.)"/>
+      <extension name="(SUBTITLE)"/>
+    </extensions>
+    <transitions>
+      <transition name="CUT TO:"/>
+      <transition name="FADE IN:"/>
+      <transition name="FADE OUT"/>
+      <transition name="FADE TO:"/>
+      <transition name="DISSOLVE TO:"/>
+      <transition name="BACK TO:"/>
+      <transition name="MATCH CUT TO:"/>
+      <transition name="JUMP CUT TO:"/>
+      <transition name="FADE TO BLACK"/>
+    </transitions>
+    <revision_colors>
+      <revision_color name="White" index="0" color_name="White" color_index="0" mark=""/>
+      <revision_color name="Blue" index="1" color_name="Blue" color_index="1" mark="*"/>
+      <revision_color name="Pink" index="2" color_name="Pink" color_index="2" mark="*"/>
+      <revision_color name="Yellow" index="3" color_name="Yellow" color_index="3" mark="*"/>
+      <revision_color name="Green" index="4" color_name="Green" color_index="4" mark="*"/>
+      <revision_color name="Goldenrod" index="5" color_name="Goldenrod" color_index="5" mark="*"/>
+      <revision_color name="Buff" index="6" color_name="Buff" color_index="6" mark="*"/>
+      <revision_color name="Salmon" index="7" color_name="Salmon" color_index="7" mark="*"/>
+      <revision_color name="Cherry" index="8" color_name="Cherry" color_index="8" mark="*"/>
+      <revision_color name="Tan" index="9" color_name="Tan" color_index="9" mark="*"/>
+    </revision_colors>
+    <tag_categories>
+      <tag_category name="Cast" color="#0000FF" show="true" uuid="8f6683ce-091e-4bdf-8328-ffb77e533f72"/>
+      <tag_category name="Background Actors" color="#00BFFF" show="true" uuid="9f77c0ce-f451-4f56-a07a-38207ff112ef"/>
+      <tag_category name="Stunts" color="#FFA500" show="true" uuid="9ae4b95f-f5b0-4f13-9ba5-f131db00665a"/>
+      <tag_category name="Vehicles" color="#8B0000" show="true" uuid="7b4a0c59-cf8d-45c5-b8e2-1021c12b12df"/>
+      <tag_category name="Props" color="#FF0000" show="true" uuid="3673492a-664a-44e5-a981-0a8fcffdf1b3"/>
+      <tag_category name="Camera" color="#CCFF00" show="true" uuid="a4ee63ed-8113-4d04-8950-cb24eebe74e2"/>
+      <tag_category name="Special Effects" color="#1E90FF" show="true" uuid="96ccbf08-5282-4741-9526-1f87c4507a65"/>
+      <tag_category name="Wardrobe" color="#800080" show="true" uuid="4695e56a-4a44-47ff-b668-561b6b26e62f"/>
+      <tag_category name="Makeup/Hair" color="#9370DB" show="true" uuid="cc593c50-ae61-430c-aa7b-9c23aabf5ae3"/>
+      <tag_category name="Animals" color="#CD853F" show="true" uuid="b276f264-f116-4a71-8019-e27ac7ae1a11"/>
+      <tag_category name="Animal Handler" color="#8B4513" show="true" uuid="c2ba2979-3743-4fca-b14b-5611ba97f530"/>
+      <tag_category name="Music" color="#20B2AA" show="true" uuid="f9aa25cf-15e6-43a2-8e04-45402779a727"/>
+      <tag_category name="Sound" color="#008080" show="true" uuid="a9edf2a3-1d71-45e0-99f8-a63e14f537c9"/>
+      <tag_category name="Set Dressing" color="#BA55D3" show="true" uuid="3d304168-5ab9-4ad0-b469-7001e7b96801"/>
+      <tag_category name="Greenery" color="#008000" show="true" uuid="9bb2bebb-ba87-40ba-81de-c842790ee9f4"/>
+      <tag_category name="Special Equipment" color="#BDB76B" show="true" uuid="7159c037-31a7-41ed-a948-b194b3f9be43"/>
+      <tag_category name="Security" color="#DAA520" show="true" uuid="d1d1f295-d2bb-4bae-a846-ba71c5e5a9d2"/>
+      <tag_category name="Additional Labor" color="#B8860B" show="true" uuid="80877b70-58d0-4881-96e1-b7aa1c7f1baf"/>
+      <tag_category name="Visual Effects" color="#32CD32" show="true" uuid="73f112c5-ebf6-483e-927e-4c21d3cf9ff1"/>
+      <tag_category name="Mechanical Effects" color="#B22222" show="true" uuid="076f2f4a-5d2e-40f6-9d18-74811de445b0"/>
+      <tag_category name="Miscellaneous" color="#708090" show="true" uuid="0c28a847-5584-4d57-9cdb-deb242c351a0"/>
+      <tag_category name="Notes" color="#FFD700" show="true" uuid="67605ea1-853a-4634-99e3-e870d54ac813"/>
+    </tag_categories>
+    <highlight_rules/>
+  </lists>
+</document>
